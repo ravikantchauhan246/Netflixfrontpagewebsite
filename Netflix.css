@@ -1,0 +1,216 @@
+#body{
+
+    background-image: url(./Assest/netflix-1.jpg.webp);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 1000px;
+    width: 100%;
+    
+    padding-bottom: 30px;
+    background-size:contain;
+
+}
+#div1{
+    width: 100%;
+    height: 250px;
+    
+
+}
+#img1{
+    
+    height: auto;
+    width: 28%;
+    float: left;
+}
+#a1{
+    font-size: 30px;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    background-color: red;
+    
+    
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+#a1:hover{
+    background-color: darkorange;
+    color: black;
+
+}
+#div2{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    margin-left: 24%;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+#h1{
+    font-size: 47px;
+    text-align: center;
+}
+#p1{
+    font-size: 23px;
+    text-align: center;
+
+}
+input{
+    width: 40%;
+    height: 40px;
+    margin-left: 9%;
+    font-size: 25px;
+    
+}
+
+#a2{
+    font-size: 25px;
+    width: 30%;
+    height: 25px;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#TV{
+    width: 100%;
+    height: 600px;
+    background-color:black;
+    margin-top: -300px;
+    border: 2px solid rgb(47, 47, 46);
+}
+.enjoy{
+    width: 40%;
+    height: 400px;
+    font-size: 30px;
+    color: azure;
+    padding-top: 200px;
+    text-align: center;
+    float:left;
+    /* border: 2px solid yellow; */
+    margin-left: 10%;
+}
+#div3{
+    width: 40%;
+    height: 400px;
+    padding-top: 150px;
+    /* border: 2px solid red; */
+    float: right;
+}
+
+#img2{
+    width: 90%;
+    height: 400px;
+    display: inline-block;
+
+
+}
+.download{
+    width: 100%;
+    height: 600px;
+    background-color:black;
+    border: 2px solid rgb(47, 47, 46);
+    color: white; 
+
+
+}
+.img3{
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 3%;
+    float: left;
+}
+.text1{
+    margin-left: 10%;
+    margin-top: 7%;
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    font-size: 30px;
+    float: left;
+
+}
+.footer{
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer1{
+
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    padding-top: 10px;
+
+}
+a{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 20px;
+
+}
+a:hover{
+    color: chartreuse;
+
+}
+
+/* ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #00defb;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #24ea42;
+    color: rgb(5, 5, 5);
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
